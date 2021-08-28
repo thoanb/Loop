@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop</title>
+
+    <!-- BS4 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+</head>
+<body>
+   
+    <div class="container">
+        <p>Bài 1: console.log</p>
+        <p>Bài 2: console.log</p>
+        <p>Bài 3: console.log</p>
+        <div class="col-4 py-3">
+            <p>Bài 4: Viết chương trình nhập vào 2 số x, n tính tổng: S(n) = x + x^2 + x^3 +
+                ... + x^n</p>
+            <form>
+                <div class="form-group">
+                    <input type="number" class="form-control my-3" id="inputNumX4" placeholder="Nhập số x">
+                    <input type="number" class="form-control my-3" id="inputNumN4" placeholder="Nhập số n">
+                </div>
+                <button id="btnLoop4" type="button" class="btn btn-primary">Submit</button>
+                <p id="txtResult4" class="alert alert-success py-3 my-3"></p>
+            </form>
+        </div>
+
+        <div class="col-4 py-3">
+            <p>Bài 5: Nhập vào n. Tính giai thừa 1*2*...n</p>
+            <form>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="inputNumN5" placeholder="Nhập số n">
+                </div>
+                <button id="btnLoop5" type="button" class="btn btn-primary">Submit</button>
+                <p id="txtResult5" class="alert alert-success py-3 my-3"></p>
+            </form>
+        </div>
+        <div class="col-4 py-3">
+            <p>Bài 6: Hãy viết chương trình khi click vào button sẽ in ra 10 thẻ div. Nếu div nào
+                vị trí chẵn thì background màu đỏ và lẻ thì background màu xanh.</p>
+            <form>
+                <div class="bai6" id="bai6"></div>
+                <button id="btnLoop6" type="button" class="btn btn-primary my-3">Submit</button>
+                <p id="txtResult6" class="alert alert-success py-3 my-3"></p>
+            </form>
+        </div>
+
+        <div class="col-4 py-3">
+            <p>Bài 7: Viết chương trình có một ô input, một button. Khi click vào button thì in ra
+                các số nguyên tố từ 1 tới giá trị của ô input</p>
+            <form>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="inputNumN7" placeholder="Nhập số n">
+                </div>
+                <button id="btnLoop7" type="button" class="btn btn-primary">Submit</button>
+                <p id="txtResult7" class="alert alert-success py-3 my-3"></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
